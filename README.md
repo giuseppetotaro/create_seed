@@ -13,11 +13,11 @@ This script needs the tika-app jar file. The latest stable release of tika-app j
 
 To launch create_seed.sh, use the following command:
 
-> ./create_sh -i /path/to/input -o /path/to/output
+> ./create_seed.sh -i /path/to/input -o /path/to/output
 
 By default, the script looks for tika-app jar file in the current folder. Optionally, a different pathname for tika-app can be specified using the following command-lline option:
 
-> ./create_sh -i /path/to/input -o /path/to/output -p /path/to/tika-app
+> ./create_seed.sh -i /path/to/input -o /path/to/output -p /path/to/tika-app
 
 ## Pattern matching
 
